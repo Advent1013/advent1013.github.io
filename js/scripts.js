@@ -1,3 +1,4 @@
+console.log("Could this be an easter egg?");
 $(window).resize(function() {
 	var dev = "images/devblg.png";
 	var adv = "images/advblg.png";
