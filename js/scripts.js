@@ -3,8 +3,8 @@ $(window).resize(function() {
 	var dev = "images/devblg.png";
 	var adv = "images/advblg.png";
 	var lan = "images/lanblg.png";
-     if($(this).width() < 450){
-	    	dev = "images/devblgtiny.png";
+    if($(this).width() < 450){
+	    dev = "images/devblgtiny.png";
 		adv = "images/advblgtiny.png";
 		lan = "images/lanblgtiny.png";
 	}
