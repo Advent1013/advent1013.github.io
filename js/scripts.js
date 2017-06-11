@@ -1,4 +1,6 @@
 console.log("Could this be an easter egg?");
+var landingbg = 1 + Math.floor(Math.random() * 2);
+  
 $(window).resize(function() {
 	var dev = "images/devblg.png";
 	var adv = "images/advblg.png";
@@ -12,3 +14,4 @@ $(window).resize(function() {
 	$("#advimg").attr('src',adv);
 	$("#lanimg").attr('src',lan);
 });
+$('#landing').css("background-image", "url(images/landingbg/"+landingbg+".gif)");
